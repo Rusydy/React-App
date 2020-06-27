@@ -2,7 +2,7 @@ import React from "react"
 
 function Header() {
     return (
-        <h1>RM</h1>
+        <h1 className="navbar">RM</h1>
     )
 }
 
