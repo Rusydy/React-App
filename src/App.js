@@ -4,6 +4,7 @@ import Header from "./components/Header"
 import MainContent from "./components/MainContent"
 import Footer from "./components/Footer"
 import Greeting from "./components/Greeting"
+import Jokes from "./Jokes_processing"
 
 function App() { 
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Greeting />
       <MainContent />
+      <Jokes />
       <Footer />
   </div>
   )
